@@ -27,7 +27,7 @@ if (window.DeviceOrientationEvent) {
             document.querySelector('meta[name="theme-color"]').setAttribute('content',  colorValue);
 
             // Text values
-            document.querySelector('.text').textContent = Math.round(a) + "=" + Math.round(remappedA) + "," + Math.round(b) + "=" + Math.round(remappedB) + "," + Math.round(c) + "=" + Math.round(remappedC);
+            //document.querySelector('.text').textContent = Math.round(a) + "=" + Math.round(remappedA) + "," + Math.round(b) + "=" + Math.round(remappedB) + "," + Math.round(c) + "=" + Math.round(remappedC);
         }
     }, false);
 }
