@@ -1,4 +1,4 @@
-if (window.DeviceOrientationEvent != undefined) {
+if (window.DeviceOrientationEvent) {
     window.addEventListener('deviceorientation', function (eventData) {
 
         function map(value, fromMin, fromMax, toMin, toMax) {
