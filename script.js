@@ -11,7 +11,7 @@ if (window.DeviceMotionEvent != undefined && window.DeviceOrientationEvent != un
         var c = eventData.gamma; // Range: -90 to 90
 
         // No support
-        if (a === null) {
+        if (!a) {
             document.querySelector('.warning').style.display = 'block';
         } else {
             // Map to RGB (from 0 to 255)
@@ -27,7 +27,7 @@ if (window.DeviceMotionEvent != undefined && window.DeviceOrientationEvent != un
             document.querySelector('meta[name="theme-color"]').setAttribute('content',  colorValue);
 
             // Text values
-            document.querySelector('.text').textContent = a + "=" + remappedA + "," + b + "=" + remappedB + "," + c + "=" + remappedC;
+            //document.querySelector('.text').textContent = a + "=" + remappedA + "," + b + "=" + remappedB + "," + c + "=" + remappedC;
         }
     }, false);
 }
