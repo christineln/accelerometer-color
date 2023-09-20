@@ -2,7 +2,7 @@
 
 Play with colors by rotating you phone.
 
-The X, Y and Z-axes of a built-in gyroscope are mapped to a RGB color.
+Using the three axes of the built-in gyroscope to map it to a RGB color on your screen.
 
 ## Demo
 https://christineln.github.io/gyro-color/
